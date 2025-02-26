@@ -18,7 +18,7 @@ const { title, description, imagepath } = defineProps({
 </script>
 
 <style scoped lang="scss">
-@import '../styles/variables';
+@use '../styles/variables' as *;
 
 h2, p {
   overflow: hidden;
